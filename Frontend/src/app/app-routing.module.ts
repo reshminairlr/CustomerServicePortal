@@ -6,19 +6,24 @@ import { CustomerloginComponent} from './customerlogin/customerlogin.component';
 import { ServiceteamComponent} from './serviceteam/serviceteam.component';
 import { CustomerserviceagentComponent} from './customerserviceagent/customerserviceagent.component';
 import { AboutusComponent} from './aboutus/aboutus.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
 const routes: Routes = [ 
-  {path:"",component:HomeComponent},
-  {path:"admin",component:AdminComponent},
+  {path:"",component:CustomerloginComponent},
   {path:"customerlogin",component:CustomerloginComponent},
+  {path:"admin",component:AdminComponent},
+  
   {path:"serviceteam",component:ServiceteamComponent},
   {path:"customerserviceagent",component:CustomerserviceagentComponent},
-  {path:"customerserviceagent",component:AboutusComponent},
+  {path:"aboutus",component:AboutusComponent}
 
 
 ];
+
+
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

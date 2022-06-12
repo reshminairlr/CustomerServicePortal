@@ -2,25 +2,27 @@
 <div class="container">
     
 
-    <section class="h-100 h-custom" style="background-color: #8fc4b7;">
+    <section class="h-100"  style="background-color: #53807a;">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-lg-8 col-xl-6">
-              <div class="card rounded-3">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img3.webp"
-                  class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+              <div class="card rounded-2">
+                <img src="../../assets/image/bgimg.jpg"
+                  class="w-100" class="center-block" style="border-top-left-radius: .2rem; border-top-right-radius: .2rem;"
                   alt="Sample photo">
-                <div class="card-body p-4 p-md-5">
-                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Registration Complaint</h3>
+                <div class="card-body p-4 p-md-5" id="heading">
+                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2"> Complaint Registration</h3>
       
-                  <form class="px-md-2">
+                  <form class="px-md">
       
                    
       
                     <div class="row">
                      
-                      <div class="col-md-6 mb-4">
-                        <label for="pdt">Product Type</label>
+                      <div class="col-md-4 mb-4" id="heading1">
+                        <label for="pdtype">Product Type</label>
+                        </div>
+                        <div class="col-md-6 mb-4" id="heading1">
                         <select class="select">
                             
                           <option selected disabled>Select Product Type</option>
@@ -30,13 +32,16 @@
                         </select>
       
                       </div>
+                     
                     </div>
 
-<!-- 
-                    <div class="row">
+
+                    <!-- <div class="row">
                      
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-4 mb-4">
                           <label for="pdt">Product</label>
+                          </div>
+                          <div class="col-md-6 mb-4">
                           <select class="select">
                               
                             <option selected disabled>Select Product </option>
@@ -46,24 +51,27 @@
                           </select>
         
                         </div>
-                      </div> -->
-
-
-
-
+                      </div>  -->
       
                  
       
-                    <div class="row mb-4 pb-2 pb-md-0 mb-md-5">
-                      <div class="col-md-6">
+                    <div class="row">
+                      
+                      <div class="col-md-4 mb-4">
       
-                        <div class="form-outline">
-                          <input type="text" id="form3Example1w" class="form-control" />
+                        
                           <label class="form-label" for="form3Example1w">Phone Number</label>
-                        </div>
-      
-                      </div>
+                        
+</div>
+                          <div class="col-md-6 mb-4">
+                           
+                          <input type="text" id="phonenumber" class="form-control" required/>
+                         
+                      
+      </div>
+                      
                     </div>
+                   
       
                     <button type="submit" class="btn btn-success btn-lg mb-1">Submit</button>
       
@@ -75,4 +83,4 @@
           </div>
         </div>
       </section>
-    
+    </div>
