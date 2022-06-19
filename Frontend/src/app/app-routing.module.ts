@@ -7,6 +7,8 @@ import { ServiceteamComponent} from './serviceteam/serviceteam.component';
 import { CustomerserviceagentComponent} from './customerserviceagent/customerserviceagent.component';
 import { AboutusComponent} from './aboutus/aboutus.component';
 import { HeaderComponent } from './header/header.component';
+import { CustomerviewComponent } from './customerview/customerview.component';
+import { CustomercomplaintupdateComponent } from './customerview/customercomplaintupdate/customercomplaintupdate.component';
 
 
 
@@ -17,7 +19,9 @@ const routes: Routes = [
   
   {path:"serviceteam",component:ServiceteamComponent},
   {path:"customerserviceagent",component:CustomerserviceagentComponent},
-  {path:"aboutus",component:AboutusComponent}
+  {path:"aboutus",component:AboutusComponent},
+  {path:"customerview",component:CustomerviewComponent},
+  {path:"customercomplaintupdate",component:CustomercomplaintupdateComponent}
 
 
 ];

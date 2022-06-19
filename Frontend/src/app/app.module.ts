@@ -35,7 +35,9 @@ import {HttpClientModule} from '@angular/common/http';
     ServiceteamComponent,
     AdminComponent,
     AboutusComponent,
-    HomeComponent
+    HomeComponent,
+    CustomerviewComponent,
+    CustomercomplaintupdateComponent
   ],
   imports: [
     BrowserModule,
